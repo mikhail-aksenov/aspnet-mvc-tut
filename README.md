@@ -1,7 +1,6 @@
 # Краткое введение в ASP.NET MVC
 
-ASP.NET MVC - веб-фреймворк с открытым исходным кодом, разработанный компанией
-Microsoft, входит в семейство традиционных MVC-фреймворков, таких как Ruby on Rails, Spring MVC, и подобных.
+ASP.NET MVC - веб-фреймворк с открытым исходным кодом, разработанный компанией Microsoft, входит в семейство традиционных MVC-фреймворков, таких как Ruby on Rails, Spring MVC, и подобных.
 
 Аббревиатура MVC расшифровывается как Model-View-Controller:
 
@@ -22,11 +21,26 @@ XML, JSON и подобных.
 
 ## Создание таблицы в БД.
 
-На каждый запрос пользователя создается новый контроллер и память очищается, поэтому
-создадим модель для пиццы.
+На каждый запрос пользователя создается новый контроллер и память очищается, поэтому создадим модель для пиццы.
 
 Откроем SQL Server Management Studio и создадим базу и таблицу Pizza.
 
 У меня получилось следующее:
 
-![alt text](https://github.com/mikhail-aksenov/aspnet-mvc-tut/images/0-table.png "Table")
+![alt text](https://github.com/mikhail-aksenov/aspnet-mvc-tut/blob/master/images/0-table.png "Table")
+
+## Создаение проекта в Visual Studio
+
+Запускаем Visual Studio и выбираем `File -> New -> Project`. Выбираем `Web`, вводим название и жмем OK.
+
+![alt text](https://github.com/mikhail-aksenov/aspnet-mvc-tut/blob/master/images/1-project-creation.png "Project")
+
+![alt text](https://github.com/mikhail-aksenov/aspnet-mvc-tut/blob/master/images/2-project-creation.png "Project")
+
+## Создание модели
+
+Теперь сопоставим таблицу в SQL Server с классом в ASP.NET MVC. Нажимаем правой кнопкой на папку `Models` и выбираем `New Item`.
+
+![alt text](https://github.com/mikhail-aksenov/aspnet-mvc-tut/blob/master/images/3-model-creation.png "Project")
+
+
